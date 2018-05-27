@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "webRTCIPHandlingPolicy = 'default_public_interface_only'",
+    "version": "0.0.1",
+    "description": "Sets chrome.privacy.network.webRTCIPHandlingPolicy to 'default_public_interface_only'",
+    "icons": {},
+    "minimum_chrome_version": "48",
+    "permissions": ["privacy"],
+    "background": {
+      "scripts": ["/js/background.js"],
+      "persistent": false
+    }
+  }
